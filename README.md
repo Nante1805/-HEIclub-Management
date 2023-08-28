@@ -16,6 +16,7 @@ learn Spring Boot.
 - Launch in IntelliJ Ultmate
 - Let dependencies install automatically 
 
-
-
-
+## Configurations:
+- Launch "1-Database/HEIclub.sql" in your psql
+termninal to have same unifurm shema.
+- 
