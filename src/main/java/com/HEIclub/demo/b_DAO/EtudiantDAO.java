@@ -8,13 +8,11 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import com.HEIclub.demo.a_model.Etudiant;
+import org.springframework.beans.factory.annotation.Autowired;
 
 public class EtudiantDAO {
+    @Autowired
     private Connection connection;
-
-    public EtudiantDAO(Connection connection) {
-        this.connection = connection;
-    }
 
     public void insert(Etudiant toAdd) throws SQLException {
         String sql = "INSERT INTO etudiant (nom, prenom) VALUES (?, ?)";

@@ -28,6 +28,4 @@ public class DatabaseConfig {
     public EtudiantDAO etudiantDAO(Connection connection) {
         return  new EtudiantDAO(connection);
     }
-
-
 }
