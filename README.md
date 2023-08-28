@@ -19,4 +19,11 @@ learn Spring Boot.
 ## Configurations:
 - Launch "1-Database/HEIclub.sql" in your psql
 termninal to have same unifurm shema.
-- 
+- Turn info connection in "src/main/ressources/application.properties"
+into appropriately.
+```sh
+spring.datasource.username= {psql_username}
+spring.datasource.password= {psql_password}
+```
+
+## It's All 👌
