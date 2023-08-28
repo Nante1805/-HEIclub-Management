@@ -25,5 +25,7 @@ into appropriately.
 spring.datasource.username= {psql_username}
 spring.datasource.password= {psql_password}
 ```
+- Launch point of server: 
+"src/main/java/com.HEIclub.demo/DemoApplication.java"
 
 ## It's All 👌
