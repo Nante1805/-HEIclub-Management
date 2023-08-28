@@ -5,7 +5,7 @@ learn Spring Boot.
 --------
 ## MCD:
 
-[mcdImage](./1_Database/MCD.png);
+![mcdImage](./1_Database/MCD.png);
 
 ## Technologies:
 - Java (Spring Boot, Maven, ...)

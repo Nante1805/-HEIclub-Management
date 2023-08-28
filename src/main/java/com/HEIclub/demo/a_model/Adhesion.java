@@ -1,0 +1,17 @@
+package com.HEIclub.demo.a_model;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+import java.sql.Date;
+
+@AllArgsConstructor
+@Getter
+@Setter
+@ToString
+public class Adhesion {
+    private int id;
+    private Date date;
+    private int idEtudiant;
+}
