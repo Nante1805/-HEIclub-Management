@@ -24,4 +24,10 @@ public class DatabaseConfig {
         return DriverManager.getConnection(dbUrl, dbUsername, dbPassword);
     }
 
+    @Bean
+    public EtudiantDAO etudiantDAO(Connection connection) {
+        return  new EtudiantDAO(connection);
+    }
+
+
 }
