@@ -105,5 +105,3 @@ VALUES ('Club de Musique', 'Alice Smith'),
        ('Club de Photographie', 'Emily Brown'),
        ('Club de Science', 'David Lee'),
        ('Club de Danse', 'Sophia Wilson');
-
-
