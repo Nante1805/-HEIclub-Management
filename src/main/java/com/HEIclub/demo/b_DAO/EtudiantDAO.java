@@ -14,6 +14,9 @@ public class EtudiantDAO {
     @Autowired
     private Connection connection;
 
+    public EtudiantDAO(Connection connection) {
+    }
+
 
     public void insert(Etudiant toAdd) throws SQLException {
         String sql = "INSERT INTO etudiant (nom, prenom) VALUES (?, ?)";

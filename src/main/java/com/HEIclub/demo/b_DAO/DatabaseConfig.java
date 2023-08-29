@@ -23,5 +23,9 @@ public class DatabaseConfig {
     public Connection getDatabaseConnection() throws SQLException {
         return DriverManager.getConnection(dbUrl, dbUsername, dbPassword);
     }
-}
 
+    @Bean
+    public EtudiantDAO clientDAO(Connection connection) {
+        return new EtudiantDAO(connection);
+    }
+}
